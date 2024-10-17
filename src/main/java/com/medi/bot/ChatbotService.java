@@ -15,6 +15,8 @@ public class ChatbotService {
         responses.put("when to see a doctor", "If your symptoms are severe or persistent, it's best to consult a healthcare professional.");
         responses.put("how to treat a cold", "Rest, hydration, and over-the-counter medications can help alleviate symptoms.");
         responses.put("what is diabetes", "Diabetes is a chronic condition that affects how your body processes sugar (glucose).");
+        responses.put("fever", "Fever is a temporary increase in your body temperature, often due to an illness.");
+        responses.put("cough", "A cough is a reflex action to clear your airways of mucus and irritants.");
     }
 
     public String getResponse(String query) {
